@@ -1,0 +1,79 @@
+.navbar-nav{
+	
+	margin-left: 65%;
+	
+}
+
+.navbar{
+	position: sticky;
+	top: 0px;
+	z-index: 1;
+	border-top: 1px solid  #d4d3cd;
+	padding-bottom: 0px;
+-webkit-box-shadow: -5px 7px 17px -6px rgba(0,0,0,0.95);
+-moz-box-shadow: -5px 7px 17px -6px rgba(0,0,0,0.95);
+box-shadow: -5px 7px 17px -6px rgba(0,0,0,0.95)
+
+}
+.nav-item{
+	font-size: 1.2em;
+	margin-left: 10%;
+}
+
+
+
+h1,p{
+	text-align: center;
+}
+
+h1{
+	color: green;
+}
+
+
+footer> .w3-container:nth-child(1) img{
+	height: 200px;
+	width: 150px;
+	
+}
+
+footer> .w3-container:nth-child(2) img{
+	height: 200px;
+	width: 150px;
+
+}
+footer{
+		display: flex;
+		justify-content: center;
+		text-align: center;
+		background-color: #fbfaf6;
+}
+
+.footer-p{
+	font-size: 5vw;
+	text-align: center;
+}
+
+footer> .w3-container figcaption{
+	color: green;
+	font-weight: bold;
+}
+
+article> p{
+	font-size: 5vw;
+}
+
+article> p:nth-child(1){
+	color: green;
+}
+article> p:nth-child(2){
+	margin-left: 1%;
+	color: brown;
+
+}
+
+article> p:nth-child(2) i:hover{
+	background-color: brown;
+	color: white;
+	padding: 10px;
+	border-radius: 5px;

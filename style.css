@@ -97,6 +97,7 @@ article{
 	margin-top: 10%;
 	margin-left: 5%;
 	display: grid;
+	grid-gap: 10px;
 	grid-template-columns: repeat(auto-fill, 300px);
 	grid-template-rows: (auto-fill);
 
@@ -185,10 +186,15 @@ footer> .w3-container:nth-child(2) img{
 	width: 200px;
 
 }
+footer> .w3-container figcaption{
+	font-weight: bold;
+	color: green;
+}
 footer{
 		display: flex;
 		justify-content: center;
 		text-align: center;
+		background-color: #fbfaf6;
 }
 
 .footer-p{
