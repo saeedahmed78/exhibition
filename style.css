@@ -66,6 +66,7 @@ body> .w3-container{
 .navbar{
 	position: sticky;
 	top: 0px;
+	display: flex;
 	border-top: 1px solid  #d4d3cd;
 	padding-bottom: 0px;
 -webkit-box-shadow: -5px 7px 17px -6px rgba(0,0,0,0.95);
