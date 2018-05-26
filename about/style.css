@@ -10,18 +10,20 @@ h1{
 .navbar-nav{
 	
 	margin-left: 65%;
+
 	
 }
 
 .navbar{
+
 	position: sticky;
 	top: 0px;
 	z-index: 1;
 	border-top: 1px solid  #d4d3cd;
 	padding-bottom: 0px;
--webkit-box-shadow: -5px 7px 17px -6px rgba(0,0,0,0.95);
--moz-box-shadow: -5px 7px 17px -6px rgba(0,0,0,0.95);
-box-shadow: -5px 7px 17px -6px rgba(0,0,0,0.95)
+	-webkit-box-shadow: -5px 7px 17px -6px rgba(0,0,0,0.95);
+	-moz-box-shadow: -5px 7px 17px -6px rgba(0,0,0,0.95);
+	box-shadow: -5px 7px 17px -6px rgba(0,0,0,0.95)
 
 }
 .nav-item{
@@ -32,8 +34,8 @@ box-shadow: -5px 7px 17px -6px rgba(0,0,0,0.95)
 
 .card-img-top{
 	display: block;
-	height: 400px;
-	width: 400px;
+	height: 40vw;
+	width: 40vw;
 }
 
 /*icon*/
@@ -47,6 +49,7 @@ box-shadow: -5px 7px 17px -6px rgba(0,0,0,0.95)
 
 .card{
 	margin-top: 5% !important;
+	width: auto;
 }
 
 #i{
@@ -76,7 +79,8 @@ header{
 }
 
 header> img{
-	height: 100px;
-	width: 100px;
+	height: 15vw;
+	width: 20vw;
 	margin-left: 3%;
+
 }
